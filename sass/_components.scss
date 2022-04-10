@@ -8,6 +8,26 @@
     height: 100%;
     top: 0;
     right: -100%;
+    background-color: var(--color-primary);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: 1.6rem;
+    margin-top: 5rem;
+  }
+
+  &__link {
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
   }
 
   &__show {
@@ -30,6 +50,11 @@
   width: 24px;
   height: 24px;
   cursor: pointer;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  fill: white;
+
 }
 
 .hero {
