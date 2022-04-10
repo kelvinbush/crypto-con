@@ -30,15 +30,13 @@ $bp-smaller: 31.25em; // 500px
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1 rem = 10px
 
-  @media only screen and (max-width: $bp-large) {
-    font-size: 50%;
-  }
 }
 
 body {

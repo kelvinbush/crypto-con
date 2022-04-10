@@ -7,15 +7,79 @@
     <link rel="shortcut icon" href="img/icons8-blockchain.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Crypto Con &mdash; Your Blockchain Conference</title>
 </head>
 <body>
-<header>
-</header>
-<main></main>
-<footer></footer>
+<div class="hero">
+    <header class="nav">
+        <div class="nav__container">
+            <a class="nav__logo" href="#home"><img src="img/menu.svg" alt="Website Logo"></a>
+            <nav>
+                <img id="toggle-nav" src="img/burger-bar.png" alt="Toggle Menu">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__links">
+                        <li><a href="#works" class="nav__link">Portfolio</a></li>
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                    <img id="close-nav" src="img/close.png" alt="Close Navigation">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero__container">
+        <p class="hero__hello">"Hello! Sharing world"</p>
+        <div class="hero__headline">
+            <h1>Creative commons global summit 2015</h1>
+        </div>
+        <p class="hero__welcome">Welcome to our blockchain conference we focus on solving problems while leveraging the
+            blockchain
+            technology.
+            Our speakers are people whose goal is change in how business and society works today.</p>
+        <h3 class="hero__date">2022.04.13(THUR) ~ 16(FRI)</h3>
+        <p class="hero__location">@ Kenya International Conference Center, Nairobi Kenya</p>
+    </section>
+</div>
+
+<section class="program">
+    <div class="program__container">
+        <h2>Main Program</h2>
+        <hr>
+        <div id="program" class="program__content">
+        </div>
+        <button>Book your ticket now</button>
+    </div>
+</section>
+
+<section class="speakers">
+    <div class="speakers__container">
+        <h2>Featured Speakers</h2>
+        <hr>
+        <div id="speakers" class="speakers__content">
+        </div>
+    </div>
+</section>
+
+<div class="sponsors">
+    <div class="sponsors__container">
+        <h2>Partners</h2>
+        <hr>
+        <div id="sponsors" class="sponsors__content">
+            <img src="img/tron.svg" alt="Tron sponsor">
+            <img src="img/solana-logo.svg" alt="Solana Sponsor">
+            <img src="img/peercoin.svg" alt="Peer coin sponsor">
+            <img src="img/tron.svg" alt="Tron sponsor">
+            <img src="img/solana-logo.svg" alt="Solana Sponsor">
+        </div>
+    </div>
+</div>
+<footer>
+    <img src="img/icons8-blockchain.png" alt="Logo">
+    <p>Copyright &copy; 2020 Crypto Con</p>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>

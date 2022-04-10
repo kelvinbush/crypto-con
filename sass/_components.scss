@@ -1,0 +1,270 @@
+.nav {
+  height: 5rem;
+  padding: 1.6rem;
+
+  &__menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+  }
+
+  &__show {
+    right: 0;
+  }
+
+  &__logo {
+    display: none;
+  }
+
+}
+
+#toggle-nav {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+#close-nav {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.hero {
+  background: url("/img/hero.png") no-repeat;
+  background-size: cover;
+
+  &__container {
+    padding: 1.6rem;
+  }
+
+  &__hello {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-tertiary);
+  }
+
+  &__headline {
+    background-image: url("/img/headline.jpg");
+    background-position: bottom;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    h1 {
+      font-family: 'Cocogoose-Regular', sans-serif;
+      text-transform: uppercase;
+      font-size: 4rem;
+      line-height: 1.1;
+      font-weight: bolder;
+      color: var(--color-tertiary);
+    }
+  }
+
+  &__welcome {
+    backdrop-filter: blur(5px);
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border: solid 2px #ffffff;
+    padding: 1.6rem;
+  }
+
+  &__date {
+    margin-top: 0.8rem;
+    font-family: 'Cocogoose-Regular', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bolder;
+  }
+
+  &__location {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+}
+
+.program {
+  background-image: url("/img/program-bg.png");
+
+  &__container {
+    padding: 1.6rem;
+    text-align: center;
+
+    h2 {
+      font-size: 2.2rem;
+      font-weight: bolder;
+      color: #ffffff;
+    }
+
+    hr {
+      width: 60px;
+      border: solid 1px var(--color-tertiary);
+      margin: 1rem auto;
+    }
+
+    button {
+      font-size: 1.6rem;
+      font-weight: bolder;
+      color: #ffffff;
+      background: var(--color-tertiary);
+      border: none;
+      padding: 1.6rem;
+      cursor: pointer;
+      margin: 2rem auto;
+    }
+  }
+
+  &__content {
+    margin-top: 4rem;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: (4rem 5rem 1fr);
+    grid-auto-rows: 1fr;
+    background: rgba(204, 204, 204, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    padding: 1rem;
+    gap: 1.6rem;
+    text-align: left;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    h3 {
+      margin-right: 1.6rem;
+      font-size: 1.2rem;
+      font-weight: bolder;
+      color: var(--color-tertiary);
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+  }
+}
+
+.speakers {
+  background-color: #fff;
+
+  &__container {
+    padding: 4rem 1.6rem;
+    text-align: center;
+
+    h2 {
+      font-size: 2.2rem;
+      font-weight: bolder;
+    }
+
+    hr {
+      width: 60px;
+      border: solid 1px var(--color-tertiary);
+      margin: 1rem auto;
+    }
+  }
+
+  &__content {
+    margin: 3rem 0;
+    text-align: left;
+
+    .speaker {
+      display: grid;
+      grid-template-columns: (10rem 1fr);
+      align-items: center;
+      gap: 1.6rem;
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        align-self: start;
+        border-radius: 50%;
+      }
+
+      div {
+        h3 {
+          font-size: 1.7rem;
+        }
+
+        h4 {
+          font-style: italic;
+          color: var(--color-tertiary);
+        }
+
+        hr {
+          width: 30px;
+          margin-left: 0;
+          border: 1px solid var(--color-secondary);
+        }
+
+        p {
+          font-size: 1.3rem;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+}
+
+.sponsors {
+  background-color: var(--color-primary);
+
+  &__container {
+    padding: 4rem 1.6rem;
+    text-align: center;
+
+    h2 {
+      color: #fff;
+      font-size: 2.2rem;
+      font-weight: bolder;
+    }
+
+    hr {
+      width: 60px;
+      border: solid 1px var(--color-tertiary);
+      margin: 1rem auto;
+    }
+  }
+
+  &__content {
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+      width: 150px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+footer {
+  padding: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 4rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
