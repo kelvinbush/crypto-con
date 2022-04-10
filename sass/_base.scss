@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #272a31;
+  --color-secondary: #d3d3d3;
+  --color-tertiary: #ec5242;
+}
+
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; // 600px
+$bp-smaller: 31.25em; // 500px
+
+@font-face {
+  font-family: 'Cocogoose-Regular';
+  src: url('fonts/Cocogoose-Pro-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose-light';
+  src: url('fonts/Cocogoose-Pro-light-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose-thin';
+  src: url('fonts/Cocogoose-Pro-thin-trial.ttf');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 rem = 10px
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-primary);
+  background: var(--color-secondary);
+}
