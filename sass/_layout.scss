@@ -227,7 +227,7 @@ footer {
   }
 
   &__headline {
-    background-image: url("/img/headline.jpg");
+    background-image: url("../img/headline.jpg");
     background-position: bottom;
     background-clip: initial;
     -webkit-background-clip: text;
@@ -275,7 +275,7 @@ footer {
 }
 
 .program {
-  background-image: url("/img/main-program-bg.png");
+  background-image: url("../img/main-program-bg.png");
 
   &__container {
     padding: 1.6rem;
