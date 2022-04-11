@@ -180,10 +180,10 @@ a {
   background-size: cover; }
   @media screen and (min-width: 768px) {
     .hero {
-      height: 90vh;
-      max-height: 80rem; } }
+      min-height: 100vh;
+      max-height: 90rem; } }
   .hero__container {
-    padding: 1.6rem;
+    padding: 0 1.6rem 6rem 1.6rem;
     position: relative;
     top: 4rem; }
     @media screen and (min-width: 768px) {
@@ -388,15 +388,22 @@ footer {
     font-size: 1.2rem; }
 
 .about__container {
-  padding: 1.6rem;
+  padding: 0 1.6rem 6rem 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  top: 4rem; }
+  @media screen and (min-width: 768px) {
+    .about__container {
+      top: 10rem;
+      max-width: 80rem;
+      margin: 0 auto;
+      justify-content: flex-start; } }
 
 .about .hero__welcome {
-  margin-top: 5rem;
   background: #ffffff;
   border: 1px solid #e6e6e6; }
 
@@ -468,6 +475,11 @@ footer {
     text-align: center;
     padding: 4rem 0 2rem 0;
     list-style: none; }
+    @media screen and (min-width: 768px) {
+      .history__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem; } }
   .history__item {
     display: flex;
     flex-direction: column;

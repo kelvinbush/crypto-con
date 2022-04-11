@@ -192,12 +192,12 @@
   background-size: cover;
 
   @media screen and (min-width: 768px) {
-    height: 90vh;
-    max-height: 80rem;
+    min-height: 100vh;
+    max-height: 90rem;
   }
 
   &__container {
-    padding: 1.6rem;
+    padding: 0 1.6rem 6rem 1.6rem;
     position: relative;
     top: 4rem;
 

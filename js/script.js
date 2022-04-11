@@ -69,31 +69,31 @@ programSection.innerHTML = blockchainTopics.map((topic) => `
 const speakersList = [{
   name: 'Juan Pablo',
   title: 'Professor of Entrepreneurial Legal Studies at Melaine University',
-  img: 'img/speaker6.jpg',
+  img: 'img/speaker1.jpg',
   description: 'He discusses the current state of Blockchain technology with respect to government policies and economic regulation.',
 },
 {
   name: 'Jean Moore',
   title: 'Executive Director of the Linder Foundation.',
-  img: 'img/speaker6.jpg',
+  img: 'img/speaker2.jpg',
   description: 'Discusses the impact of blockchain technology on the environment, education and public health worldwide.',
 },
 {
   name: 'Juma Juma',
   title: 'Co-founder of Quick Pay',
-  img: 'img/speaker6.jpg',
+  img: 'img/speaker3.jpg',
   description: 'Speaks on integrating cryptocurrency into payment systems. Focuses on helping consumers navigate the digital ecosystem using secure, scalable and fast financial technology.',
 },
 {
   name: 'Ruby Moore',
   title: 'Chairperson of the Central Bank of Wakanda.',
-  img: 'img/speaker6.jpg',
+  img: 'img/speaker4.jpg',
   description: 'Speaks on effects of decentralization of currency: Central banks are ineffectual, and increasingly we see that central-bank intervention is actually causing inflation.',
 },
 {
   name: 'Tim Cahill',
   title: 'Chief Technology Officer at Krypto Link. ',
-  img: 'img/speaker6.jpg',
+  img: 'img/speaker5.jpg',
   description: 'He discusses the role of crypto currency exchanges in today\'s society and how to implement them efficiently, quickly & effectively for Bitcoin buyers and sellers across an array with a view towards increasing global market penetration. Follow @Kryptolinkio on Twitter',
 },
 {

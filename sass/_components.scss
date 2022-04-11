@@ -1,15 +1,23 @@
 .about {
   &__container {
-    padding: 1.6rem;
+    padding: 0 1.6rem 6rem 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    top: 4rem;
+    @media screen and (min-width: 768px) {
+      top: 10rem;
+      max-width: 80rem;
+      margin: 0 auto;
+      justify-content: flex-start;
+    }
   }
 
+
   .hero__welcome {
-    margin-top: 5rem;
     background: #ffffff;
     border: 1px solid #e6e6e6;
   }
@@ -105,6 +113,14 @@
     text-align: center;
     padding: 4rem 0 2rem 0;
     list-style: none;
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+
+
   }
 
   &__item {
