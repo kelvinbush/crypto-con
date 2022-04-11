@@ -1,3 +1,11 @@
+.flex__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .about {
   &__container {
     padding: 0 1.6rem 6rem 1.6rem;
@@ -148,10 +156,3 @@
   }
 }
 
-.flex__center{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
