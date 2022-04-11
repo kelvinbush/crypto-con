@@ -1,56 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Crypto-Con - Blockchain Conference
 
-> Description the project.
-
+> This is the website for the Crypto-Con Blockchain Conference.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Sass
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](http://kelvinbush.me/crypto-con/)
 
+### Video Presentation
+[Video presentation link](https://www.loom.com/share/3c42bf9084dd45da964029a631fdb6b7)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Copy this link `https://github.com/kelvinbush/crypto-con`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone https://github.com/kelvinbush/crypto-con.git`.
+- Go to the repository folder in your command prompt `cd crypto-con`.
+- Run `npm install` to install the dev dependencies for linters and [node sass](https://www.npmjs.com/package/node-sass)
+  .
 
 ## Authors
 
-👤 **Author1**
+👤 **Kelvin Bush**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@kelvinbush](https://github.com/kelvinbush)
+- Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
 
 ## 🤝 Contributing
 
@@ -62,11 +48,10 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Attributions
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This web design was inspired by [Cindy Shin](https://www.behance.net/adagio07)
+on [this idea](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 

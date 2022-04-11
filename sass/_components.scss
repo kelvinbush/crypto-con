@@ -1,0 +1,152 @@
+.flex__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about {
+  &__container {
+    padding: 0 1.6rem 6rem 1.6rem;
+    position: relative;
+    top: 4rem;
+
+    @media screen and (min-width: 768px) {
+      top: 10rem;
+      max-width: 80rem;
+      margin: 0 auto;
+      justify-content: flex-start;
+    }
+  }
+
+  .hero__welcome {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+  }
+
+  &__contact {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    color: var(--color-secondary-dark);
+  }
+
+  &__email {
+    text-decoration: underline;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+}
+
+.logo {
+  background-color: #fff;
+  padding: 4rem 1.6rem;
+
+  h3 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+  }
+
+  hr {
+    width: 60px;
+    border: solid 1px var(--color-tertiary);
+    margin: 1rem auto;
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+    margin-top: 1rem;
+    border: 1px solid var(--color-tertiary);
+    box-sizing: content-box;
+    padding: 1.6rem 7rem;
+  }
+}
+
+.history {
+  background-color: #fff;
+
+  &__container {
+    padding: 4rem 1.6rem;
+
+    h3 {
+      font-size: 2.2rem;
+      font-weight: bolder;
+    }
+
+    hr {
+      width: 60px;
+      border: solid 1px var(--color-tertiary);
+      margin: 1rem auto;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-top: 1rem;
+    }
+  }
+
+  &__list {
+    padding: 4rem 0 2rem 0;
+    list-style: none;
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+  }
+
+  &__item {
+    padding: 1.6rem 0;
+    list-style: none;
+    position: relative;
+
+    img {
+      width: 100%;
+      max-height: 25rem;
+    }
+
+    .history__content {
+      background-color: rgba(236, 82, 66, 0.62);
+      position: absolute;
+      color: #fff;
+      top: 1.6rem;
+      bottom: 1.6rem;
+      transition: all 0.3s ease-in-out;
+
+      h4 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        padding: 0 1.6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 1.6rem;
+      }
+
+      &:hover {
+        background-color: transparent;
+
+        h4,
+        p {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}
