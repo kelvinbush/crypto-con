@@ -235,6 +235,8 @@ footer {
       line-height: 1.1;
       font-weight: bolder;
       color: var(--color-tertiary); }
+      .hero__headline h1 span {
+        font-family: 'Lato', sans-serif; }
       @media screen and (min-width: 768px) {
         .hero__headline h1 {
           font-size: 6rem;
@@ -251,7 +253,7 @@ footer {
         margin-bottom: 3rem; } }
   .hero__date {
     margin-top: 0.8rem;
-    font-family: 'Cocogoose-Regular', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 2.2rem;
     font-weight: bolder; }
   .hero__location {
@@ -515,7 +517,6 @@ footer {
       align-items: center;
       cursor: pointer; }
       .history__item .history__content h4 {
-        font-family: 'Cocogoose-Regular', sans-serif;
         font-size: 2.5rem;
         font-weight: bolder;
         padding: 0 1.6rem; }
