@@ -12,11 +12,6 @@
 }
 
 @font-face {
-  font-family: 'Cocogoose-light';
-  src: url("fonts/Cocogoose-Pro-light-trial.ttf");
-}
-
-@font-face {
   font-family: 'Cocogoose-thin';
   src: url("fonts/Cocogoose-Pro-thin-trial.ttf");
 }
@@ -344,7 +339,7 @@ footer p {
 }
 
 .program {
-  background-image: url("/img/program-bg.png");
+  background-image: url("/img/main-program-bg.png");
 }
 
 .program__container {
