@@ -1,7 +1,8 @@
 :root {
   --color-primary: #272a31;
   --color-secondary: #d3d3d3;
-  --color-tertiary: #ec5242; }
+  --color-tertiary: #ec5242;
+  --color-secondary-dark: rgba(73, 71, 71, 0.83); }
 
 @font-face {
   font-family: 'Cocogoose-Regular';
@@ -238,3 +239,56 @@ footer {
     object-fit: contain; }
   footer p {
     font-size: 1.2rem; }
+
+.about__container {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.about .hero__welcome {
+  margin-top: 5rem;
+  background: #ffffff;
+  border: 1px solid #e6e6e6; }
+
+.about__contact {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  color: var(--color-secondary-dark); }
+
+.about__email {
+  text-decoration: underline;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.4rem; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 1.6rem;
+  align-items: center; }
+  .logo h3 {
+    font-size: 2.2rem;
+    font-weight: bolder; }
+  .logo hr {
+    width: 60px;
+    border: solid 1px var(--color-tertiary);
+    margin: 1rem auto; }
+  .logo p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 1rem;
+    border: 1px solid var(--color-tertiary);
+    box-sizing: content-box;
+    padding: 1.6rem 7rem; }
