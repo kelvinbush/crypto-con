@@ -25,9 +25,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (max-width: 68.75em) {
-    html {
-      font-size: 50%; } }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -183,7 +180,7 @@ a {
       min-height: 100vh;
       max-height: 90rem; } }
   .hero__container {
-    padding: 0 1.6rem 6rem 1.6rem;
+    padding: 1.6rem 1.6rem 6rem 1.6rem;
     position: relative;
     top: 4rem; }
     @media screen and (min-width: 768px) {
