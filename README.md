@@ -1,6 +1,4 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-[![Linters](https://github.com/kelvinbush/crypto-con/actions/workflows/linters.yml/badge.svg)](https://github.com/kelvinbush/crypto-con/actions/workflows/linters.yml)
-[![pages-build-deployment](https://github.com/kelvinbush/crypto-con/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kelvinbush/crypto-con/actions/workflows/pages/pages-build-deployment)
 # Crypto-Con - Blockchain Conference
 
 > This is the website for the Crypto-Con Blockchain Conference.
