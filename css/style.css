@@ -250,7 +250,7 @@ footer p {
 }
 
 .hero {
-  background: url("/img/hero.png") no-repeat;
+  background: url("../img/hero.png") no-repeat;
   background-size: cover;
 }
 
