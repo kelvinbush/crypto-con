@@ -54,7 +54,7 @@ const blockchainTopics = [{
   topic: 'Ethereum',
   description: 'Ethereum is a decentralized platform that is used to create blockchains.',
   img: 'img/ethereum.png',
-}
+},
 ];
 
 const programSection = document.getElementById('program');

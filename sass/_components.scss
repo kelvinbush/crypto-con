@@ -8,6 +8,7 @@
     text-align: center;
     position: relative;
     top: 4rem;
+
     @media screen and (min-width: 768px) {
       top: 10rem;
       max-width: 80rem;
@@ -16,9 +17,8 @@
     }
   }
 
-
   .hero__welcome {
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #e6e6e6;
   }
 
@@ -35,8 +35,6 @@
     font-weight: 700;
     font-size: 1.4rem;
   }
-
-
 }
 
 .logo {
@@ -119,8 +117,6 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1rem;
     }
-
-
   }
 
   &__item {
@@ -132,7 +128,6 @@
     padding: 1.6rem 0;
     list-style: none;
     position: relative;
-
 
     img {
       width: 100%;
@@ -175,6 +170,5 @@
         }
       }
     }
-
   }
 }
