@@ -1,17 +1,44 @@
 footer {
-  padding: 1.6rem;
-  display: flex;
-  gap: 1.6rem;
+  padding: 3rem 1.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
 
-  img {
-    width: 4rem;
-    height: auto;
-    object-fit: contain;
+
+  .footer__logo {
+    img {
+      width: 6rem;
+      height: auto;
+      object-fit: contain;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--color-tertiary);
+      font-style: italic;
+    }
   }
 
   p {
+    font-size: 1.2rem;
+  }
+}
+
+.footer {
+  &__copy {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__desc {
     font-size: 1.2rem;
   }
 }

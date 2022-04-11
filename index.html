@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet " href="css/style.css" >
+    <link rel="stylesheet " href="css/style.css">
     <title>Crypto Con &mdash; Your Blockchain Conference</title>
 </head>
 <body>
-<div class="hero">
+<section class="hero">
     <header id="header" class="nav">
         <div class="nav__container">
             <a class="nav__logo" href="index.html">
                 <img src="img/icons8-blockchain.png" alt="Website Logo">
             </a>
             <div class="nav__socials">
-                <div >
+                <div>
                     <a href="https://twitter.com/CryptoCon2020" target="_blank" rel="noopener noreferrer">
                         <img src="img/twitter.png" alt="Twitter"></a>
                     <a href="https://www.facebook.com/CryptoCon2020/" target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@
             </nav>
         </div>
     </header>
-    <section class="hero__container" id="home">
+    <div class="hero__container" id="home">
         <p class="hero__hello">"Hello! Sharing world"</p>
         <div class="hero__headline">
             <h1>Crypto-con <br> global blockchain summit <br> 2022</h1>
@@ -54,9 +54,8 @@
             Our speakers are people whose goal is change in how business and society works today.</p>
         <h3 class="hero__date">2022.04.13(THUR) ~ 16(FRI)</h3>
         <p class="hero__location">@ Kenya International Conference Center, Nairobi Kenya</p>
-    </section>
-</div>
-
+    </div>
+</section>
 <section id="prgm" class="program">
     <div class="program__container">
         <h2>Main Program</h2>
@@ -66,7 +65,6 @@
         <button type="button">Book your ticket now</button>
     </div>
 </section>
-
 <section id="spks" class="speakers">
     <div class="speakers__container">
         <h2>Featured Speakers</h2>
@@ -75,8 +73,7 @@
         </div>
     </div>
 </section>
-
-<div id="spns" class="sponsors">
+<section id="spns" class="sponsors">
     <div class="sponsors__container">
         <h2>Partners</h2>
         <hr>
@@ -88,12 +85,18 @@
             <img src="img/solana-logo.svg" alt="Solana Sponsor">
         </div>
     </div>
-</div>
+</section>
 <footer>
-    <img src="img/icons8-blockchain.png" alt="Logo">
-    <p>Copyright &copy; 2020 Crypto Con</p>
+    <div class="footer__logo">
+        <img src="img/icons8-blockchain.png" alt="Logo">
+        <p>Crypto-con</p>
+    </div>
+    <div>
+        <p class="footer__copy">Copyright &copy; 2020 Crypto Con</p>
+        <p class="footer__desc"> Blockchain has become extremely popular among financial services firms as a secure alternative to Bitcoin
+            due its ease-of use and transparency.</p>
+    </div>
 </footer>
-<script src="js/common.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

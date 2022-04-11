@@ -59,11 +59,11 @@ const blockchainTopics = [{
 
 const programSection = document.getElementById('program');
 programSection.innerHTML = blockchainTopics.map((topic) => `
-  <div class="program__item">
+  <article class="program__item">
                   <img src="${topic.img}" alt="Program 1">
                     <h3>${topic.topic}</h3>
                     <p>${topic.description}</p>
-               </div>`)
+               </article>`)
   .join('');
 
 const speakersList = [{
