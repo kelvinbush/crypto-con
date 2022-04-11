@@ -15,6 +15,9 @@
 
 [Live Demo Link](http://kelvinbush.me/crypto-con/)
 
+### Video Presentation
+[Video presentation link](https://www.loom.com/share/e2d19cef5e584397a714afd5757c5610)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.

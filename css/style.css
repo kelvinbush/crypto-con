@@ -494,6 +494,11 @@ footer p {
   width: 150px;
   height: auto;
   object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+.sponsors__content img:hover {
+  transform: scale(1.1);
 }
 
 .speakers {
@@ -537,6 +542,7 @@ footer p {
   align-items: center;
   gap: 1.6rem;
   margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .speakers__content .speaker img {
@@ -565,6 +571,10 @@ footer p {
 .speakers__content .speaker div p {
   font-size: 1.3rem;
   line-height: 1.3;
+}
+
+.speakers__content .speaker:hover {
+  transform: scale(1.1);
 }
 
 .my_flex {
@@ -700,7 +710,7 @@ footer p {
   color: #fff;
   top: 1.6rem;
   bottom: 1.6rem;
-  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .history__item .history__content h4 {
@@ -723,5 +733,5 @@ footer p {
 
 .history__item .history__content:hover h4,
 .history__item .history__content:hover p {
-  display: none;
+  visibility: hidden;
 }

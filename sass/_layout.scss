@@ -425,6 +425,11 @@ footer {
       width: 150px;
       height: auto;
       object-fit: contain;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -466,6 +471,7 @@ footer {
       align-items: center;
       gap: 1.6rem;
       margin-bottom: 2rem;
+      transition: all 0.3s ease-in-out;
 
       img {
         width: 100%;
@@ -495,6 +501,10 @@ footer {
           font-size: 1.3rem;
           line-height: 1.3;
         }
+      }
+
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }
