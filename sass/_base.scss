@@ -36,7 +36,11 @@ $bp-smaller: 31.25em; // 500px
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 1 rem = 10px
+  font-size: 62.5%; // 1// rem = 10px
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 
 }
 
@@ -46,4 +50,8 @@ body {
   line-height: 1.6;
   color: var(--color-primary);
   background: var(--color-secondary);
+}
+
+a {
+  text-decoration: none !important;
 }
