@@ -15,6 +15,20 @@
 <body>
 <div class="hero">
     <header id="header" class="nav">
+        <div class="nav__container">
+            <a class="nav__logo" href="#home"><img src="img/menu.svg" alt="Website Logo"></a>
+            <nav>
+                <img id="toggle-nav" src="img/burger-bar.png" alt="Toggle Menu">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__links">
+                        <li><a href="#home" class="nav__link">Home</a></li>
+                        <li><a href="#history" class="nav__link">Previous</a></li>
+                        <li><a href="#spns" class="nav__link">Sponsors</a></li>
+                    </ul>
+                    <img id="close-nav" src="img/close.png" alt="Close Navigation">
+                </div>
+            </nav>
+        </div>
     </header>
     <section class="about">
         <div class="about__container" id="home">
@@ -46,7 +60,8 @@
     <p>Crypto-Con logo was decided through the logo competition from 8th July 2021 to 10th July 2021.</p>
     <img src="img/icons8-blockchain.png" alt="Crypto-Con logo">
 </section>
-<section class="history">
+<hr>
+<section id="history" class="history">
     <div class="history__container">
         <h3>See the past CC Blockchain Summits</h3>
         <hr>
@@ -54,21 +69,45 @@
             Take a look at the past Crypto-Con Blockchain Summits and learn more about the history of Crypto-Con.
         </p>
         <ul class="history__list">
-            <li class="history__item">
-                <h4>2021</h4>
-                <p>
-                    Crypto-Con 2021 was the second Crypto-Con Blockchain Summit in the world.
-                    The event was held in London, England.</p>
+            <li class="history__item one">
+                <img src="img/conference3.jpg" alt="London Conference">
+                <div class="history__content">
+                    <h4>2021</h4>
+                    <p>
+                        Crypto-Con 2021 was the second Crypto-Con Blockchain Summit in the world.
+                        The event was held in London, England.</p>
+                </div>
+
             </li>
-            <li class="history__item">
-                <h4>2020</h4>
-                <p>
-                    Crypto-Con 2020 was the first Crypto-Con Blockchain Summit in the world.
-                    The event was held in Berlin, Germany.</p>
+            <li class="history__item two">
+                <img src="img/conference2.jpg" alt="Berlin Conference">
+                <div class="history__content">
+                    <h4>2020</h4>
+                    <p>
+                        Crypto-Con 2020 was the first Crypto-Con Blockchain Summit in the world.
+                        The event was held in Berlin, Germany.</p>
+                </div>
             </li>
         </ul>
     </div>
 </section>
+<section id="spns" class="sponsors">
+    <div class="sponsors__container">
+        <h2>Partners</h2>
+        <hr>
+        <div id="sponsors" class="sponsors__content">
+            <img src="img/tron.svg" alt="Tron sponsor">
+            <img src="img/solana-logo.svg" alt="Solana Sponsor">
+            <img src="img/peercoin.svg" alt="Peer coin sponsor">
+            <img src="img/cardano.svg" alt="Tron sponsor">
+            <img src="img/solana-logo.svg" alt="Solana Sponsor">
+        </div>
+    </div>
+</section>
+<footer>
+    <img src="img/icons8-blockchain.png" alt="Logo">
+    <p>Copyright &copy; 2020 Crypto Con</p>
+</footer>
 <script src="js/common.js"></script>
 <script src="js/script.js"></script>
 </body>

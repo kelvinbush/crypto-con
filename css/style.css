@@ -292,3 +292,69 @@ footer {
     border: 1px solid var(--color-tertiary);
     box-sizing: content-box;
     padding: 1.6rem 7rem; }
+
+.history {
+  background-color: #fff; }
+  .history__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 1.6rem; }
+    .history__container h3 {
+      font-size: 2.2rem;
+      font-weight: bolder; }
+    .history__container hr {
+      width: 60px;
+      border: solid 1px var(--color-tertiary);
+      margin: 1rem auto; }
+    .history__container p {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-top: 1rem; }
+  .history__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    list-style: none; }
+  .history__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.6rem 0;
+    list-style: none;
+    position: relative; }
+    .history__item img {
+      width: 100%;
+      max-height: 25rem; }
+    .history__item .history__content {
+      background-color: rgba(236, 82, 66, 0.62);
+      position: absolute;
+      color: #fff;
+      top: 1.6rem;
+      bottom: 1.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      .history__item .history__content h4 {
+        font-family: 'Cocogoose-Regular', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bolder; }
+      .history__item .history__content p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
+      .history__item .history__content:hover {
+        background-color: transparent; }
+        .history__item .history__content:hover h4,
+        .history__item .history__content:hover p {
+          display: none; }
