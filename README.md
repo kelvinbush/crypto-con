@@ -16,7 +16,7 @@
 [Live Demo Link](http://kelvinbush.me/crypto-con/)
 
 ### Video Presentation
-[Video presentation link](https://www.loom.com/share/e2d19cef5e584397a714afd5757c5610)
+[Video presentation link](https://www.loom.com/share/3c42bf9084dd45da964029a631fdb6b7)
 
 ## Getting Started
 
