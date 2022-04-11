@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Crypto-Con - Blockchain Conference
 
 > This is the website for the Crypto-Con Blockchain Conference.
@@ -43,6 +44,11 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Attributions
+
+This web design was inspired by [Cindy Shin](https://www.behance.net/adagio07)
+on [this idea](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 
