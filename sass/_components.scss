@@ -1,11 +1,6 @@
 .about {
   &__container {
     padding: 0 1.6rem 6rem 1.6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     position: relative;
     top: 4rem;
 
@@ -78,11 +73,6 @@
   background-color: #fff;
 
   &__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 4rem 1.6rem;
 
     h3 {
@@ -104,11 +94,6 @@
   }
 
   &__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 4rem 0 2rem 0;
     list-style: none;
 
@@ -120,11 +105,6 @@
   }
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 1.6rem 0;
     list-style: none;
     position: relative;
@@ -140,10 +120,6 @@
       color: #fff;
       top: 1.6rem;
       bottom: 1.6rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       cursor: pointer;
 
       h4 {
@@ -170,4 +146,12 @@
       }
     }
   }
+}
+
+.flex__center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

@@ -89,7 +89,6 @@ footer {
       width: 100%;
       max-width: 120rem;
       margin: 0 auto;
-      display: flex;
       padding: 0.6rem;
       justify-content: flex-end;
       align-items: center;
@@ -138,7 +137,6 @@ footer {
   }
 
   &__links {
-    display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-right: 1.6rem;
@@ -420,7 +418,6 @@ footer {
 
   &__content {
     margin: 3rem auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -502,4 +499,8 @@ footer {
       }
     }
   }
+}
+
+.my_flex {
+  display: flex;
 }
