@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: 'Cocogoose-Regular';
-  src: url("fonts/Cocogoose-Pro-trial.ttf"); }
+  src: url("../fonts/Cocogoose-Pro-trial.ttf"); }
 
 @font-face {
   font-family: 'Cocogoose-thin';
-  src: url("fonts/Cocogoose-Pro-thin-trial.ttf"); }
+  src: url("../fonts/Cocogoose-Pro-thin-trial.ttf"); }
 
 *,
 *::before,
